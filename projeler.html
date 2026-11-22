@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="tr" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Work — Mevlüt Furkan Yılmaz</title>
+  <meta name="description" content="Ders ödevleri, finans araştırmaları ve veri projeleri.">
+  <meta name="color-scheme" content="dark light">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">İçeriğe geç</a>
+
+  <header class="site-header">
+    <nav class="pill-nav glass" aria-label="Ana menü">
+      <a class="brand" href="index.html">
+        <span class="brand-name">Mevlüt Furkan Yılmaz</span>
+        <span class="brand-sep" aria-hidden="true">—</span>
+        <span class="brand-title" lang="en">Finance &amp; Audit</span>
+      </a>
+
+      <button class="icon-btn menu-toggle" type="button" aria-expanded="false" aria-controls="nav-menu" aria-label="Menüyü aç">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+      </button>
+
+      <div class="nav-menu" id="nav-menu">
+        <div class="tabs-wrap">
+          <ul class="tabs" lang="en">
+            <li><a href="projeler.html" data-tab="work" aria-current="page">Work</a></li>
+            <li><a href="hakkimda.html" data-tab="info">Info</a></li>
+            <li><a href="iletisim.html" data-tab="contact">Contact</a></li>
+          </ul>
+          <span class="tab-indicator" aria-hidden="true"></span>
+        </div>
+
+        <div class="nav-right">
+          <ul class="ext-links" lang="en">
+            <li><a href="https://www.linkedin.com/in/KULLANICI-ADIN" target="_blank" rel="noopener noreferrer">LinkedIn <span aria-hidden="true">↗</span><span class="sr-only"> (yeni sekmede açılır)</span></a></li>
+            <li><a href="assets/ozgecmis.pdf" target="_blank" rel="noopener">Resume <span aria-hidden="true">↗</span><span class="sr-only"> (yeni sekmede açılır)</span></a></li>
+          </ul>
+          <button class="icon-btn theme-toggle" type="button" aria-label="Açık temaya geç">
+            <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
+            <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4.5"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
+          </button>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="section container page-top" aria-labelledby="page-title">
+      <p class="eyebrow" lang="en">Work</p>
+      <h1 class="section-title" id="page-title">Projeler</h1>
+      <p class="lead">GEP1316 ders ödevlerim, finans araştırmalarım ve veri çalışmalarım. Ayrıntılar için bir karta tıklayın.</p>
+
+      <div class="toolbar glass" role="search">
+        <div class="filters" role="group" aria-label="Kategoriye göre filtrele"><button class="filter-btn" type="button" data-filter="all" aria-pressed="true">Tümü</button><button class="filter-btn" type="button" data-filter="ders" aria-pressed="false">Ders</button><button class="filter-btn" type="button" data-filter="finans" aria-pressed="false">Finans & Araştırma</button><button class="filter-btn" type="button" data-filter="veri" aria-pressed="false">Veri</button></div>
+        <div class="search">
+          <label for="project-search" class="sr-only">Projelerde ara</label>
+          <input id="project-search" type="search" placeholder="Ara: Python, tahvil, erişilebilirlik…" autocomplete="off">
+        </div>
+      </div>
+      <p class="result-count" id="result-count" aria-live="polite">8 proje gösteriliyor</p>
+
+      <ul class="card-list is-grid" id="project-list">
+          <li class="card glass reveal" data-category="ders" data-search="fatura sınıflandırma algoritması gep1316 · ödev 1 · 2026 bir mali müşavir bürosuna gelen faturaları müşterinin vkn&#x27;sine göre alış veya satış olarak ayıran algoritmayı sözde kod ve akış şemasıyla tasarladım; eşleşmeyen faturalar elle kontrol listesine düşüyor. algoritma akış şeması muhasebe">
+            <div class="card-body">
+              <p class="card-meta">GEP1316 · Ödev 1 · 2026 · Ders</p>
+              <h3 class="card-title">
+                <button class="card-open" type="button" data-detail="detail-odev1" aria-haspopup="dialog">Fatura Sınıflandırma Algoritması</button>
+              </h3>
+              <p class="card-desc">Bir mali müşavir bürosuna gelen faturaları müşterinin VKN&#x27;sine göre alış veya satış olarak ayıran algoritmayı sözde kod ve akış şemasıyla tasarladım; eşleşmeyen faturalar elle kontrol listesine düşüyor.</p>
+              <p class="card-learned"><strong>Ne öğrendim:</strong> Basit bir kuralın iade faturası gibi uç durumlarda yanlış sonuç verebileceğini, algoritmanın uç durumlarla test edilmesi gerektiğini öğrendim.</p>
+              <div class="card-footer">
+                <ul class="tags" aria-label="Kullanılan araçlar"><li class="tag">Algoritma</li><li class="tag">Akış şeması</li><li class="tag">Muhasebe</li></ul>
+                <a class="card-link" href="https://github.com/KULLANICI-ADIN/odev1" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span><span class="sr-only"> (yeni sekmede açılır)</span></a>
+              </div>
+            </div>
+            <figure class="card-media">
+              <img src="assets/p-odev1.svg" alt="Akış şeması: fatura listesi okunur; satıcı VKN müşteriye eşitse satış, alıcı VKN eşitse alış toplamına eklenir, ikisi de değilse fatura inceleme listesine alınır." width="1200" height="600">
+            </figure>
+            <template id="detail-odev1">
+              <p class="eyebrow">GEP1316 · Ödev 1 · 2026</p>
+              <h2 id="modal-title">Fatura Sınıflandırma Algoritması</h2>
+              <img src="assets/p-odev1.svg" alt="Akış şeması: fatura listesi okunur; satıcı VKN müşteriye eşitse satış, alıcı VKN eşitse alış toplamına eklenir, ikisi de değilse fatura inceleme listesine alınır." width="1200" height="600">
+              <p>Bir mali müşavir bürosuna gelen faturaları müşterinin VKN&#x27;sine göre alış veya satış olarak ayıran algoritmayı sözde kod ve akış şemasıyla tasarladım; eşleşmeyen faturalar elle kontrol listesine düşüyor.</p>
+              <h3>Neler yaptım?</h3>
+              <ul><li>Problemi girdi (müşteri VKN&#x27;si, fatura listesi), işlem ve çıktı olarak tanımladım.</li><li>Koşul (EĞER / DEĞİLSE EĞER) ve döngü (HER fatura İÇİN) içeren sözde kodu ve akış şemasını hazırladım.</li><li>Çözümümü YZ&#x27;nin algoritmasıyla karşılaştırdım: iade faturasında satışların yüksek görüneceği hatayı tespit ettim ve iade kontrolü ile KDV&#x27;nin ayrı toplanmasını iyileştirme olarak önerdim.</li></ul>
+              <h3>Ne öğrendim?</h3>
+              <p>Basit bir kuralın iade faturası gibi uç durumlarda yanlış sonuç verebileceğini, algoritmanın uç durumlarla test edilmesi gerektiğini öğrendim.</p>
+              <a class="card-link" href="https://github.com/KULLANICI-ADIN/odev1" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span><span class="sr-only"> (yeni sekmede açılır)</span></a>
+            </template>
+          </li>
+          <li class="card glass reveal" data-category="ders" data-search="kasa defteri ve gün sonu raporu gep1316 · ara değerlendirme 1 · 2026 küçük bir kafenin gün içindeki nakit gelir ve giderlerini kaydeden, gün sonunda kâr/zarar raporunu hesaplayıp kasa_raporu.txt dosyasına yazan python programı. python dosya işlemleri test">
+            <div class="card-body">
+              <p class="card-meta">GEP1316 · Ara Değerlendirme 1 · 2026 · Ders</p>
+              <h3 class="card-title">
+                <button class="card-open" type="button" data-detail="detail-kasa" aria-haspopup="dialog">Kasa Defteri ve Gün Sonu Raporu</button>
+              </h3>
+              <p class="card-desc">Küçük bir kafenin gün içindeki nakit gelir ve giderlerini kaydeden, gün sonunda kâr/zarar raporunu hesaplayıp kasa_raporu.txt dosyasına yazan Python programı.</p>
+              <p class="card-learned"><strong>Ne öğrendim:</strong> Hatalı girdide çökmeyen bir program yazmanın, kodun kendisi kadar test senaryolarını düşünmeyi gerektirdiğini öğrendim.</p>
+              <div class="card-footer">
+                <ul class="tags" aria-label="Kullanılan araçlar"><li class="tag">Python</li><li class="tag">Dosya işlemleri</li><li class="tag">Test</li></ul>
+                <a class="card-link" href="https://github.com/KULLANICI-ADIN/kasa-defteri" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span><span class="sr-only"> (yeni sekmede açılır)</span></a>
+              </div>
+            </div>
+            <figure class="card-media">
+              <img src="assets/p-kasa.svg" alt="Terminalde çalışan Python kasa defteri programı: menü, hatalı “15o” girdisine verilen uyarı ve yanında gelir 450 TL, gider 120 TL, net 330 TL kâr gösteren kasa_raporu.txt dosyası." width="1200" height="600">
+            </figure>
+            <template id="detail-kasa">
+              <p class="eyebrow">GEP1316 · Ara Değerlendirme 1 · 2026</p>
+              <h2 id="modal-title">Kasa Defteri ve Gün Sonu Raporu</h2>
+              <img src="assets/p-kasa.svg" alt="Terminalde çalışan Python kasa defteri programı: menü, hatalı “15o” girdisine verilen uyarı ve yanında gelir 450 TL, gider 120 TL, net 330 TL kâr gösteren kasa_raporu.txt dosyası." width="1200" height="600">
+              <p>Küçük bir kafenin gün içindeki nakit gelir ve giderlerini kaydeden, gün sonunda kâr/zarar raporunu hesaplayıp kasa_raporu.txt dosyasına yazan Python programı.</p>
+              <h3>Neler yaptım?</h3>
+              <ul><li>Menü döngüsü (while), işlemleri sözlük olarak tutan bir liste ve sayi_al, islem_ekle, rapor_olustur, dosyaya_kaydet fonksiyonlarıyla programı kurdum.</li><li>Tutar girdisini try/except ile doğruladım: harf, negatif sayı ve 0 reddediliyor.</li><li>8 senaryoyla test ettim; “1.000” girdisinin 1,00 TL kaydedildiği hatayı bulup düzelttim.</li></ul>
+              <h3>Ne öğrendim?</h3>
+              <p>Hatalı girdide çökmeyen bir program yazmanın, kodun kendisi kadar test senaryolarını düşünmeyi gerektirdiğini öğrendim.</p>
+              <a class="card-link" href="https://github.com/KULLANICI-ADIN/kasa-defteri" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span><span class="sr-only"> (yeni sekmede açılır)</span></a>
+            </template>
+          </li>
+          <li class="card glass reveal" data-category="ders" data-search="erişilebilir ilk web sayfam gep1316 · ara değerlendirme 2 · 2026 html ve css ile hazırladığım ilk kişisel sayfa ve erişilebilirlik kontrol listesi. bu portfolyonun ana sayfası bu çalışmanın geliştirilmiş hâli. html css erişilebilirlik">
+            <div class="card-body">
+              <p class="card-meta">GEP1316 · Ara Değerlendirme 2 · 2026 · Ders</p>
+              <h3 class="card-title">
+                <button class="card-open" type="button" data-detail="detail-ara2" aria-haspopup="dialog">Erişilebilir İlk Web Sayfam</button>
+              </h3>
+              <p class="card-desc">HTML ve CSS ile hazırladığım ilk kişisel sayfa ve erişilebilirlik kontrol listesi. Bu portfolyonun ana sayfası bu çalışmanın geliştirilmiş hâli.</p>
+              <p class="card-learned"><strong>Ne öğrendim:</strong> Anlamsal HTML&#x27;in yalnızca düzen değil, ekran okuyucu kullananlar için bir “harita” olduğunu öğrendim.</p>
+              <div class="card-footer">
+                <ul class="tags" aria-label="Kullanılan araçlar"><li class="tag">HTML</li><li class="tag">CSS</li><li class="tag">Erişilebilirlik</li></ul>
+                <a class="card-link" href="https://github.com/KULLANICI-ADIN/ilk-web-sayfam" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span><span class="sr-only"> (yeni sekmede açılır)</span></a>
+              </div>
+            </div>
+            <figure class="card-media">
+              <img src="assets/p-web.svg" alt="Bir tarayıcı penceresinde basit bir web sayfası ve yanında erişilebilirlik kontrol listesi: alt metin, label etiketleri, kontrast ve klavye ile gezinme işaretli." width="1200" height="600">
+            </figure>
+            <template id="detail-ara2">
+              <p class="eyebrow">GEP1316 · Ara Değerlendirme 2 · 2026</p>
+              <h2 id="modal-title">Erişilebilir İlk Web Sayfam</h2>
+              <img src="assets/p-web.svg" alt="Bir tarayıcı penceresinde basit bir web sayfası ve yanında erişilebilirlik kontrol listesi: alt metin, label etiketleri, kontrast ve klavye ile gezinme işaretli." width="1200" height="600">
+              <p>HTML ve CSS ile hazırladığım ilk kişisel sayfa ve erişilebilirlik kontrol listesi. Bu portfolyonun ana sayfası bu çalışmanın geliştirilmiş hâli.</p>
+              <h3>Neler yaptım?</h3>
+              <ul><li>Sayfayı header, nav, main ve footer etiketleriyle kurdum.</li><li>Her görsele alt metin, her form alanına label ekledim.</li><li>Renk kontrastını WCAG AA ölçütüne göre kontrol ettim.</li></ul>
+              <h3>Ne öğrendim?</h3>
+              <p>Anlamsal HTML&#x27;in yalnızca düzen değil, ekran okuyucu kullananlar için bir “harita” olduğunu öğrendim.</p>
+              <a class="card-link" href="https://github.com/KULLANICI-ADIN/ilk-web-sayfam" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span><span class="sr-only"> (yeni sekmede açılır)</span></a>
+            </template>
+          </li>
+          <li class="card glass reveal" data-category="ders" data-search="github&#x27;da ilk depom ve merhaba.py gep1316 · ödev 2 · 2026 github&#x27;da herkese açık gep1316-portfolyo deposunu açtım, markdown ile readme yazdım ve yz yardımıyla kullanıcının adını ve doğum yılını alıp yaşını hesaplayan ilk python programımı yayımladım. git github markdown python">
+            <div class="card-body">
+              <p class="card-meta">GEP1316 · Ödev 2 · 2026 · Ders</p>
+              <h3 class="card-title">
+                <button class="card-open" type="button" data-detail="detail-odev2" aria-haspopup="dialog">GitHub&#x27;da İlk Depom ve merhaba.py</button>
+              </h3>
+              <p class="card-desc">GitHub&#x27;da herkese açık gep1316-portfolyo deposunu açtım, Markdown ile README yazdım ve YZ yardımıyla kullanıcının adını ve doğum yılını alıp yaşını hesaplayan ilk Python programımı yayımladım.</p>
+              <p class="card-learned"><strong>Ne öğrendim:</strong> Git ile her değişikliği anlamlı bir commit mesajıyla kaydetmenin, çalışmamı başkalarının takip edebileceği bir geçmişe dönüştürdüğünü öğrendim.</p>
+              <div class="card-footer">
+                <ul class="tags" aria-label="Kullanılan araçlar"><li class="tag">Git</li><li class="tag">GitHub</li><li class="tag">Markdown</li><li class="tag">Python</li></ul>
+                <a class="card-link" href="https://github.com/KULLANICI-ADIN/gep1316-portfolyo" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span><span class="sr-only"> (yeni sekmede açılır)</span></a>
+              </div>
+            </div>
+            <figure class="card-media">
+              <img src="assets/p-ai.svg" alt="Solda gep1316-portfolyo deposunun Markdown README dosyası, sağda terminalde çalışan merhaba.py: 2030 doğum yılına uyarı veriyor, 2001 için kişiye özel karşılama mesajı yazıyor." width="1200" height="600">
+            </figure>
+            <template id="detail-odev2">
+              <p class="eyebrow">GEP1316 · Ödev 2 · 2026</p>
+              <h2 id="modal-title">GitHub&#x27;da İlk Depom ve merhaba.py</h2>
+              <img src="assets/p-ai.svg" alt="Solda gep1316-portfolyo deposunun Markdown README dosyası, sağda terminalde çalışan merhaba.py: 2030 doğum yılına uyarı veriyor, 2001 için kişiye özel karşılama mesajı yazıyor." width="1200" height="600">
+              <p>GitHub&#x27;da herkese açık gep1316-portfolyo deposunu açtım, Markdown ile README yazdım ve YZ yardımıyla kullanıcının adını ve doğum yılını alıp yaşını hesaplayan ilk Python programımı yayımladım.</p>
+              <h3>Neler yaptım?</h3>
+              <ul><li>VS Code, Git ve GitHub&#x27;ı kurup gep1316-portfolyo deposunu oluşturdum.</li><li>README&#x27;de kendimi tanıttım ve “Kodlama ve YZ&#x27;nin mesleğimdeki yeri” paragrafını yazdım; başlık, liste ve bağlantı kullandım.</li><li>merhaba.py programını YZ ile yazıp satır satır inceledim; doğum yılı gelecekteyse uyarı veren kontrolü kendim ekledim.</li><li>İstemlerimi ve YZ beyanımı PROMPTLAR.md dosyasına kaydettim.</li></ul>
+              <h3>Ne öğrendim?</h3>
+              <p>Git ile her değişikliği anlamlı bir commit mesajıyla kaydetmenin, çalışmamı başkalarının takip edebileceği bir geçmişe dönüştürdüğünü öğrendim.</p>
+              <a class="card-link" href="https://github.com/KULLANICI-ADIN/gep1316-portfolyo" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span><span class="sr-only"> (yeni sekmede açılır)</span></a>
+            </template>
+          </li>
+          <li class="card glass reveal" data-category="finans" data-search="markowitz portföy optimizasyonu ortalama-varyans modeli · 2026 farklı sektörlerden 5–10 şirketin son 3–5 yıllık fiyat verisiyle getiri, risk (standart sapma) ve korelasyonları hesapladım; en düşük riskli ve maksimum sharpe oranlı iki portföy kurdum. python excel çözücü portföy teorisi">
+            <div class="card-body">
+              <p class="card-meta">Ortalama-Varyans Modeli · 2026 · Finans & Araştırma</p>
+              <h3 class="card-title">
+                <button class="card-open" type="button" data-detail="detail-markowitz" aria-haspopup="dialog">Markowitz Portföy Optimizasyonu</button>
+              </h3>
+              <p class="card-desc">Farklı sektörlerden 5–10 şirketin son 3–5 yıllık fiyat verisiyle getiri, risk (standart sapma) ve korelasyonları hesapladım; en düşük riskli ve maksimum Sharpe oranlı iki portföy kurdum.</p>
+              <p class="card-learned"><strong>Ne öğrendim:</strong> Çeşitlendirmenin gücünün tek tek hisselerden değil, aralarındaki korelasyondan geldiğini öğrendim.</p>
+              <div class="card-footer">
+                <ul class="tags" aria-label="Kullanılan araçlar"><li class="tag">Python</li><li class="tag">Excel Çözücü</li><li class="tag">Portföy teorisi</li></ul>
+                <a class="card-link" href="https://github.com/KULLANICI-ADIN/markowitz-portfoy" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span><span class="sr-only"> (yeni sekmede açılır)</span></a>
+              </div>
+            </div>
+            <figure class="card-media">
+              <img src="assets/p-markowitz.svg" alt="Risk ve getiri eksenli grafikte etkin sınır eğrisi; yeşil nokta en düşük varyanslı portföyü, sarı nokta maksimum Sharpe portföyünü gösteriyor." width="1200" height="600">
+            </figure>
+            <template id="detail-markowitz">
+              <p class="eyebrow">Ortalama-Varyans Modeli · 2026</p>
+              <h2 id="modal-title">Markowitz Portföy Optimizasyonu</h2>
+              <img src="assets/p-markowitz.svg" alt="Risk ve getiri eksenli grafikte etkin sınır eğrisi; yeşil nokta en düşük varyanslı portföyü, sarı nokta maksimum Sharpe portföyünü gösteriyor." width="1200" height="600">
+              <p>Farklı sektörlerden 5–10 şirketin son 3–5 yıllık fiyat verisiyle getiri, risk (standart sapma) ve korelasyonları hesapladım; en düşük riskli ve maksimum Sharpe oranlı iki portföy kurdum.</p>
+              <h3>Neler yaptım?</h3>
+              <ul><li>Hisse fiyatlarını çekip günlük getirileri, standart sapmaları ve korelasyon matrisini hesapladım.</li><li>Matematiksel optimizasyonla (Excel Çözücü / Python) en düşük varyanslı portföyü ve maksimum Sharpe portföyünü kurdum.</li><li>İki portföyün geçmiş performansını eşit ağırlıklı portföy ve piyasa endeksiyle karşılaştırarak stratejiyi test ettim.</li></ul>
+              <h3>Ne öğrendim?</h3>
+              <p>Çeşitlendirmenin gücünün tek tek hisselerden değil, aralarındaki korelasyondan geldiğini öğrendim.</p>
+              <a class="card-link" href="https://github.com/KULLANICI-ADIN/markowitz-portfoy" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span><span class="sr-only"> (yeni sekmede açılır)</span></a>
+            </template>
+          </li>
+          <li class="card glass reveal" data-category="finans" data-search="neorent — depozitosuz kiralama neova ıdeathon 2026 · finalist kiracıların depozito yerine sigorta teminatıyla ev kiralamasını sağlayan bir insurtech fikri. neova ıdeathon 2026&#x27;da finale kaldık. ınsurtech risk iş modeli">
+            <div class="card-body">
+              <p class="card-meta">Neova Ideathon 2026 · Finalist · Finans & Araştırma</p>
+              <h3 class="card-title">
+                <button class="card-open" type="button" data-detail="detail-neorent" aria-haspopup="dialog">NeoRent — Depozitosuz Kiralama</button>
+              </h3>
+              <p class="card-desc">Kiracıların depozito yerine sigorta teminatıyla ev kiralamasını sağlayan bir insurtech fikri. Neova Ideathon 2026&#x27;da finale kaldık.</p>
+              <p class="card-learned"><strong>Ne öğrendim:</strong> Bir finansal ürünü risk, fiyatlama ve düzenleme açısından savunmanın sunumdan çok daha zor olduğunu öğrendim.</p>
+              <div class="card-footer">
+                <ul class="tags" aria-label="Kullanılan araçlar"><li class="tag">Insurtech</li><li class="tag">Risk</li><li class="tag">İş modeli</li></ul>
+                
+              </div>
+            </div>
+            <figure class="card-media">
+              <img src="assets/p-neorent.svg" alt="NeoRent mobil uygulama ekranı taslağı: “Depozitosuz kirala” başlığı, “Sigortalı” teminat kutusu ve “Poliçeni oluştur” butonu; yanda “Finalist, Neova Ideathon 2026” kartı." width="1200" height="600">
+            </figure>
+            <template id="detail-neorent">
+              <p class="eyebrow">Neova Ideathon 2026 · Finalist</p>
+              <h2 id="modal-title">NeoRent — Depozitosuz Kiralama</h2>
+              <img src="assets/p-neorent.svg" alt="NeoRent mobil uygulama ekranı taslağı: “Depozitosuz kirala” başlığı, “Sigortalı” teminat kutusu ve “Poliçeni oluştur” butonu; yanda “Finalist, Neova Ideathon 2026” kartı." width="1200" height="600">
+              <p>Kiracıların depozito yerine sigorta teminatıyla ev kiralamasını sağlayan bir insurtech fikri. Neova Ideathon 2026&#x27;da finale kaldık.</p>
+              <h3>Neler yaptım?</h3>
+              <ul><li>Kira depozitosu pazarı ve kiracıların yaşadığı sorunu analiz ettik.</li><li>Teminat yapısı ve gelir modeli üzerinde çalıştık.</li><li>Jüriye sunum yaptık, finale kaldık.</li></ul>
+              <h3>Ne öğrendim?</h3>
+              <p>Bir finansal ürünü risk, fiyatlama ve düzenleme açısından savunmanın sunumdan çok daha zor olduğunu öğrendim.</p>
+              
+            </template>
+          </li>
+          <li class="card glass reveal" data-category="finans" data-search="fransa–almanya tahvil faiz farkı bfrc · makro araştırma · 2026 bahçeşehir üniversitesi finansal araştırma ve uygulama merkezi&#x27;nde yürüttüğüm, fransa ile almanya 10 yıllık tahvil faizi farkını inceleyen makro araştırma. bloomberg makro sabit getirili">
+            <div class="card-body">
+              <p class="card-meta">BFRC · Makro Araştırma · 2026 · Finans & Araştırma</p>
+              <h3 class="card-title">
+                <button class="card-open" type="button" data-detail="detail-spread" aria-haspopup="dialog">Fransa–Almanya Tahvil Faiz Farkı</button>
+              </h3>
+              <p class="card-desc">Bahçeşehir Üniversitesi Finansal Araştırma ve Uygulama Merkezi&#x27;nde yürüttüğüm, Fransa ile Almanya 10 yıllık tahvil faizi farkını inceleyen makro araştırma.</p>
+              <p class="card-learned"><strong>Ne öğrendim:</strong> Bloomberg Terminal&#x27;den veri çekip temizlemenin analizin yarısı olduğunu öğrendim.</p>
+              <div class="card-footer">
+                <ul class="tags" aria-label="Kullanılan araçlar"><li class="tag">Bloomberg</li><li class="tag">Makro</li><li class="tag">Sabit getirili</li></ul>
+                
+              </div>
+            </div>
+            <figure class="card-media">
+              <img src="assets/p-bond.svg" alt="Fransa ve Almanya 10 yıllık tahvil faizleri arasındaki farkı baz puan olarak gösteren turuncu çizgi grafik; kaynak Bloomberg." width="1200" height="600">
+            </figure>
+            <template id="detail-spread">
+              <p class="eyebrow">BFRC · Makro Araştırma · 2026</p>
+              <h2 id="modal-title">Fransa–Almanya Tahvil Faiz Farkı</h2>
+              <img src="assets/p-bond.svg" alt="Fransa ve Almanya 10 yıllık tahvil faizleri arasındaki farkı baz puan olarak gösteren turuncu çizgi grafik; kaynak Bloomberg." width="1200" height="600">
+              <p>Bahçeşehir Üniversitesi Finansal Araştırma ve Uygulama Merkezi&#x27;nde yürüttüğüm, Fransa ile Almanya 10 yıllık tahvil faizi farkını inceleyen makro araştırma.</p>
+              <h3>Neler yaptım?</h3>
+              <ul><li>Bloomberg Terminal&#x27;den tahvil faiz serilerini çektim.</li><li>Farkın siyasi ve mali gelişmelerle ilişkisini yorumladım.</li></ul>
+              <h3>Ne öğrendim?</h3>
+              <p>Bloomberg Terminal&#x27;den veri çekip temizlemenin analizin yarısı olduğunu öğrendim.</p>
+              
+            </template>
+          </li>
+          <li class="card glass reveal" data-category="veri" data-search="veri bilimi bootcamp projeleri yapay zeka ve teknoloji akademisi · 2025 600 saatlik bootcamp boyunca python ve r ile veri temizleme, görselleştirme ve temel modelleme çalışmaları. python r makine öğrenmesi">
+            <div class="card-body">
+              <p class="card-meta">Yapay Zeka ve Teknoloji Akademisi · 2025 · Veri</p>
+              <h3 class="card-title">
+                <button class="card-open" type="button" data-detail="detail-datasci" aria-haspopup="dialog">Veri Bilimi Bootcamp Projeleri</button>
+              </h3>
+              <p class="card-desc">600 saatlik bootcamp boyunca Python ve R ile veri temizleme, görselleştirme ve temel modelleme çalışmaları.</p>
+              <p class="card-learned"><strong>Ne öğrendim:</strong> Bir modelin doğruluğundan önce verinin nereden geldiğini sorgulamayı öğrendim.</p>
+              <div class="card-footer">
+                <ul class="tags" aria-label="Kullanılan araçlar"><li class="tag">Python</li><li class="tag">R</li><li class="tag">Makine öğrenmesi</li></ul>
+                <a class="card-link" href="https://github.com/KULLANICI-ADIN/veri-bilimi" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span><span class="sr-only"> (yeni sekmede açılır)</span></a>
+              </div>
+            </div>
+            <figure class="card-media">
+              <img src="assets/p-data.svg" alt="Bir Jupyter defterinde sütun grafik ve yanında regresyon doğrusu çizilmiş saçılım grafiği." width="1200" height="600">
+            </figure>
+            <template id="detail-datasci">
+              <p class="eyebrow">Yapay Zeka ve Teknoloji Akademisi · 2025</p>
+              <h2 id="modal-title">Veri Bilimi Bootcamp Projeleri</h2>
+              <img src="assets/p-data.svg" alt="Bir Jupyter defterinde sütun grafik ve yanında regresyon doğrusu çizilmiş saçılım grafiği." width="1200" height="600">
+              <p>600 saatlik bootcamp boyunca Python ve R ile veri temizleme, görselleştirme ve temel modelleme çalışmaları.</p>
+              <h3>Neler yaptım?</h3>
+              <ul><li>Pandas ile veri temizleme ve keşifsel analiz yaptım.</li><li>Regresyon ve sınıflandırma modelleri kurup değerlendirdim.</li></ul>
+              <h3>Ne öğrendim?</h3>
+              <p>Bir modelin doğruluğundan önce verinin nereden geldiğini sorgulamayı öğrendim.</p>
+              <a class="card-link" href="https://github.com/KULLANICI-ADIN/veri-bilimi" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span><span class="sr-only"> (yeni sekmede açılır)</span></a>
+            </template>
+          </li>
+      </ul>
+      <p class="empty-state" id="empty-state" hidden>Aramanızla eşleşen proje bulunamadı.</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>
+        <p class="signature">“Rakamlar konuşur; ben önce kanıtı dinlerim.”</p>
+        <p class="footer-meta">© <span id="year">2026</span> Mevlüt Furkan Yılmaz. Tüm hakları saklıdır.</p>
+        <p class="footer-meta">Bu site çerez, analiz aracı veya üçüncü taraf betik kullanmaz.</p>
+      </div>
+      <ul class="footer-links">
+        <li><a href="https://www.linkedin.com/in/KULLANICI-ADIN" target="_blank" rel="noopener noreferrer">LinkedIn <span aria-hidden="true">↗</span><span class="sr-only"> (yeni sekmede açılır)</span></a></li>
+        <li><a href="https://github.com/KULLANICI-ADIN" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span><span class="sr-only"> (yeni sekmede açılır)</span></a></li>
+        <li><a href="mailto:e-posta@adresin.com">E-posta</a></li>
+        <li><a href="iletisim.html">İletişim formu</a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <dialog class="modal glass" id="project-modal" aria-labelledby="modal-title">
+    <div class="modal-inner">
+      <button class="icon-btn modal-close" type="button" aria-label="Detay penceresini kapat">×</button>
+      <div class="modal-content" id="modal-content"></div>
+    </div>
+  </dialog>
+</body>
+</html>
