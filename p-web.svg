@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600" role="img" aria-label="odev5.html">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0b3b5c"/><stop offset="1" stop-color="#0A0A0C"/></linearGradient>
+<linearGradient id="w" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#1c1c20"/><stop offset="1" stop-color="#121215"/></linearGradient></defs>
+<rect width="1200" height="600" fill="url(#g)"/>
+<rect x="120" y="70" width="960" height="560" rx="18" fill="url(#w)" stroke="rgba(255,255,255,.12)"/>
+<rect x="120" y="70" width="960" height="44" rx="18" fill="#232327"/><rect x="120" y="96" width="960" height="18" fill="#232327"/>
+<circle cx="150" cy="92" r="7" fill="#FF5F57"/><circle cx="174" cy="92" r="7" fill="#FEBC2E"/><circle cx="198" cy="92" r="7" fill="#28C840"/>
+<text x="600" y="98" fill="#8E8E93" font-family="-apple-system,Segoe UI,Arial" font-size="15" text-anchor="middle">index.html</text>
+<rect x="170" y="150" width="860" height="60" rx="12" fill="#1f1f24"/>
+<rect x="190" y="172" width="140" height="16" rx="8" fill="#64D2FF"/><rect x="760" y="172" width="70" height="16" rx="8" fill="#3a3a40"/><rect x="845" y="172" width="70" height="16" rx="8" fill="#3a3a40"/><rect x="930" y="172" width="70" height="16" rx="8" fill="#3a3a40"/>
+<rect x="170" y="240" width="520" height="40" rx="10" fill="#e5e5ea"/><rect x="170" y="296" width="400" height="18" rx="9" fill="#5a5a60"/><rect x="170" y="326" width="360" height="18" rx="9" fill="#5a5a60"/>
+<rect x="170" y="370" width="150" height="44" rx="22" fill="#64D2FF"/>
+<rect x="740" y="240" width="290" height="200" rx="16" fill="#26262b"/>
+<text x="770" y="285" fill="#30D158" font-family="-apple-system,Segoe UI,Arial" font-size="20">✓ alt metin</text><text x="770" y="325" fill="#30D158" font-family="-apple-system,Segoe UI,Arial" font-size="20">✓ label etiketleri</text><text x="770" y="365" fill="#30D158" font-family="-apple-system,Segoe UI,Arial" font-size="20">✓ kontrast 7:1</text><text x="770" y="405" fill="#30D158" font-family="-apple-system,Segoe UI,Arial" font-size="20">✓ klavye ile gezinme</text></svg>

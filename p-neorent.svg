@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600" role="img" aria-label="neorent-pitch">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0b2d4a"/><stop offset="1" stop-color="#0A0A0C"/></linearGradient>
+<linearGradient id="w" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#1c1c20"/><stop offset="1" stop-color="#121215"/></linearGradient></defs>
+<rect width="1200" height="600" fill="url(#g)"/>
+<rect x="120" y="70" width="960" height="560" rx="18" fill="url(#w)" stroke="rgba(255,255,255,.12)"/>
+<rect x="120" y="70" width="960" height="44" rx="18" fill="#232327"/><rect x="120" y="96" width="960" height="18" fill="#232327"/>
+<circle cx="150" cy="92" r="7" fill="#FF5F57"/><circle cx="174" cy="92" r="7" fill="#FEBC2E"/><circle cx="198" cy="92" r="7" fill="#28C840"/>
+<text x="600" y="98" fill="#8E8E93" font-family="-apple-system,Segoe UI,Arial" font-size="15" text-anchor="middle">neorent-pitch</text>
+<rect x="420" y="135" width="360" height="300" rx="28" fill="#1f1f24" stroke="rgba(255,255,255,.1)"/>
+<text x="460" y="190" fill="#F5F5F7" font-family="-apple-system,Segoe UI,Arial" font-size="30" font-weight="700">NeoRent</text>
+<text x="460" y="222" fill="#8E8E93" font-family="-apple-system,Segoe UI,Arial" font-size="16">Depozitosuz kirala</text>
+<rect x="460" y="245" width="280" height="80" rx="16" fill="#26262b"/><text x="480" y="278" fill="#8E8E93" font-family="-apple-system,Segoe UI,Arial" font-size="14">Depozito teminatı</text><text x="480" y="308" fill="#30D158" font-family="-apple-system,Segoe UI,Arial" font-size="22" font-weight="600">Sigortalı ✓</text>
+<rect x="460" y="345" width="280" height="50" rx="25" fill="#64D2FF"/><text x="600" y="377" fill="#000" font-family="-apple-system,Segoe UI,Arial" font-size="17" font-weight="600" text-anchor="middle">Poliçeni oluştur</text>
+<rect x="170" y="180" width="200" height="200" rx="20" fill="#26262b"/><text x="270" y="270" fill="#FEBC2E" font-family="-apple-system,Segoe UI,Arial" font-size="22" text-anchor="middle" font-weight="600">Finalist</text><text x="270" y="300" fill="#8E8E93" font-family="-apple-system,Segoe UI,Arial" font-size="15" text-anchor="middle">Neova Ideathon 2026</text>
+<rect x="830" y="180" width="200" height="200" rx="20" fill="#26262b"/><rect x="860" y="308.0" width="22" height="42.0" rx="6" fill="#30D158" opacity="0.615"/><rect x="892" y="280.0" width="22" height="70.0" rx="6" fill="#30D158" opacity="0.7250000000000001"/><rect x="924" y="287.0" width="22" height="63.0" rx="6" fill="#30D158" opacity="0.6975"/><rect x="956" y="252.0" width="22" height="98.0" rx="6" fill="#30D158" opacity="0.835"/><rect x="988" y="224.0" width="22" height="126.0" rx="6" fill="#30D158" opacity="0.9450000000000001"/></svg>
